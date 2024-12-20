@@ -1,10 +1,14 @@
 import React from 'react';
+import About from '../components/About';
+import Skills from '../components/Skills';
 
 const Home = () => {
   return (
-    <div>
-      <h2>Welcome to My Personal Website</h2>
-      <p>This is the home page.</p>
+    <div className="home-container">
+      <About />
+      <hr />
+      <Skills />
+      <hr />
     </div>
   );
 };

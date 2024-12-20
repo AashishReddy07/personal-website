@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
-  color: papayawhip;
-  background-color: #201b1b;
+  --background-color: #201b1b;
+  --text-color: papayawhip;
 }
 
 * {
@@ -9,3 +11,16 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Inter, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
